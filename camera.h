@@ -62,5 +62,8 @@
   void CAM_moveCameraUp(Camera *cam, GLfloat dir);
   void CAM_Control(Camera *cam);
   void CAM_updateCamera(Camera *cam);
+  /**
+   * Retorna as posicoes da camera de modo que seja facilitado o debug.
+   */
   char * CAM_toString(Camera *cam);
 #endif

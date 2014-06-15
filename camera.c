@@ -98,7 +98,7 @@ void CAM_updateCamera(Camera *cam)
 char * CAM_toString(Camera *cam)
 {
   char result[100];
-  sprintf (result, "cam(x,y,z): (%.2f,%.2f,%.2f)", cam->camX, cam->camY, cam->camZ);
+  sprintf (result, "cam(x, y, z): (%.2f,%.2f,%.2f)", cam->camX, cam->camY, cam->camZ);
 
   return result;
 }
